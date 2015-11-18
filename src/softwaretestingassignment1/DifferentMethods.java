@@ -12,7 +12,7 @@ package softwaretestingassignment1;
 public class DifferentMethods {
     
     
-    public int addition(int a, int b){
+    public int additionOfTwoNumbers(int a, int b){
         return  a+b;
     }
 }
