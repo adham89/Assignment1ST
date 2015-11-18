@@ -50,10 +50,25 @@ public class TestDifferentMethods {
         int b = 100;
         DifferentMethods instance = new DifferentMethods();
         int expResult = 200;
-        int result = instance.addition(a, b);
+        int result = instance.additionOfTwoNumbers(a, b);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
        // fail("The test case is a prototype.");
     }
+    
+    
+          @Test
+    public void testsub() {
+        System.out.println("addition");
+        int a = 600;
+        int b = 100;
+        DifferentMethods instance = new DifferentMethods();
+        int expResult = 500;
+        int result = instance.sub(a, b);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+       // fail("The test case is a prototype.");
+    }
+    
 
 }
