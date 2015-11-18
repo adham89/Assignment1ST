@@ -28,4 +28,8 @@ public class DifferentMethods {
         
         return sb.length();
     }
+    
+    public boolean isPalindrom(String word){
+        return isPalindrom(word);
+    }
 }

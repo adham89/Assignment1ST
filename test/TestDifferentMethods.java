@@ -81,5 +81,15 @@ public class TestDifferentMethods {
        assertEquals(result, expResult);
        
    }
+   
+      @Test 
+   public void testIfItsPalindrom(){
+       System.out.println("Palindrom or not?");
+       String word = "anna";
+       DifferentMethods instance = new DifferentMethods();
+       boolean palindrom = instance.isPalindrom(word);
+       boolean not = true;
+       assertEquals(not, palindrom);
+   }
 
 }
