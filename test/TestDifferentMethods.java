@@ -70,5 +70,16 @@ public class TestDifferentMethods {
        // fail("The test case is a prototype.");
     }
     
+    
+      @Test
+   public void testCountChars(){
+       System.out.println("count chars");
+       String word = "adham";
+       DifferentMethods instance = new DifferentMethods();
+       int expResult = instance.countChars(word);
+       int result = 5;
+       assertEquals(result, expResult);
+       
+   }
 
 }

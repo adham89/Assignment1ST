@@ -20,4 +20,8 @@ public class DifferentMethods {
     public int substractionOfTwoNumbers(int x, int y){
         return x-y;
     }
+    
+    public int countChars(String word){
+        return 0;
+    }
 }
