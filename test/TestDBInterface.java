@@ -40,6 +40,7 @@ public class TestDBInterface {
     
         intF=Mockito.mock(DBInterface.class);
         when(intF.connect("jdbc:mysql://localhost/dictionary", "root", "root")).thenReturn(true);
+        
         instance = new InterfaceHandler();
         instance.setIntF(intF);
         
@@ -66,6 +67,19 @@ public class TestDBInterface {
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
+    
+    
+        @Test
+    public void testDisconnect() {
+        System.out.println("disconnect");
+        instance.disconnect();
+        boolean expResult = false;
+        boolean result = instance.disconnect();
+        assertEquals(expResult,result);
+        // TODO review the generated test code and remove the default call to fail.
+        //fail("The test case is a prototype.");
+    }
+
     
     // TODO add test methods here.
     // The methods must be annotated with annotation @Test. For example:

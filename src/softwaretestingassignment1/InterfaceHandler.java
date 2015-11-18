@@ -15,6 +15,7 @@ public class InterfaceHandler implements DBInterface{
     @Override
     public boolean connect(String address, String userName, String password) {
         return getIntF().connect(address, userName, password);
+        
     }
     
     public DBInterface getIntF() {
@@ -23,9 +24,9 @@ public class InterfaceHandler implements DBInterface{
 
     @Override
     public boolean disconnect() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+      return true ;
     }
-
+    
     @Override
     public boolean isConnected() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
