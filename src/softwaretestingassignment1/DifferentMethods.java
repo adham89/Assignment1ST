@@ -30,6 +30,6 @@ public class DifferentMethods {
     }
     
     public boolean isPalindrom(String word){
-        return isPalindrom(word);
+        return word.equals(new StringBuilder(word).reverse().toString());
     }
 }
