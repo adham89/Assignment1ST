@@ -48,7 +48,7 @@ public class TestDifferentMethods {
         System.out.println("addition");
         int a = 100;
         int b = 100;
-            DifferentMethods instance = new DifferentMethods();
+        DifferentMethods instance = new DifferentMethods();
         int expResult = 200;
         int result = instance.add(a, b);
         assertEquals(expResult, result);
