@@ -22,6 +22,10 @@ public class DifferentMethods {
     }
     
     public int countChars(String word){
-        return 0;
+        
+       StringBuilder sb = new StringBuilder();
+         sb.append(word);
+        
+        return sb.length();
     }
 }
