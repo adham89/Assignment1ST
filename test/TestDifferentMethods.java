@@ -76,7 +76,7 @@ public class TestDifferentMethods {
        System.out.println("count chars");
        String word = "adham";
        DifferentMethods instance = new DifferentMethods();
-       int expResult = instance.countChars(word);
+       int expResult = instance.countCharsInAString(word);
        int result = 5;
        assertEquals(result, expResult);
        

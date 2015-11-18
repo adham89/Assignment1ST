@@ -21,10 +21,10 @@ public class DifferentMethods {
         return x-y;
     }
     
-    public int countChars(String word){
+    public int countCharsInAString(String characters){
         
        StringBuilder sb = new StringBuilder();
-         sb.append(word);
+       sb.append(characters);
         
         return sb.length();
     }
