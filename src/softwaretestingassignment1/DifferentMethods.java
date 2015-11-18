@@ -29,7 +29,9 @@ public class DifferentMethods {
         return sb.length();
     }
     
-    public boolean isPalindrom(String word){
-        return word.equals(new StringBuilder(word).reverse().toString());
+    public boolean isPalindromWord(String words){
+        return words.equals(new StringBuilder(words).reverse().toString());
+        
+        // this method is a shortcut, it can only check word by word
     }
 }
