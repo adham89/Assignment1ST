@@ -14,7 +14,7 @@ public class InterfaceHandler implements DBInterface{
 
     @Override
     public boolean connect(String address, String userName, String password) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return false;
     }
 
     @Override

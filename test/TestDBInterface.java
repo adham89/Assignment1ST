@@ -53,6 +53,20 @@ public class TestDBInterface {
     public void tearDown() {
     }
 
+    
+     @Test
+    public void testConnect() {
+        System.out.println("connect");
+        String address = "jdbc:mysql://localhost/dictionary";
+        String userName = "root";
+        String password = "root";
+        boolean expResult = true;
+        boolean result = instance.connect(address, userName, password);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        //fail("The test case is a prototype.");
+    }
+    
     // TODO add test methods here.
     // The methods must be annotated with annotation @Test. For example:
     //
