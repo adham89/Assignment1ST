@@ -64,7 +64,7 @@ public class TestDifferentMethods {
         int b = 100;
         DifferentMethods instance = new DifferentMethods();
         int expResult = 500;
-        int result = instance.sub(a, b);
+        int result = instance.substractionOfTwoNumbers(a, b);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
        // fail("The test case is a prototype.");

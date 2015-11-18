@@ -17,7 +17,7 @@ public class DifferentMethods {
     }
     
     
-    public int sub(int a, int b){
-        return a-b;
+    public int substractionOfTwoNumbers(int x, int y){
+        return x-y;
     }
 }
