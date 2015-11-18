@@ -14,7 +14,11 @@ public class InterfaceHandler implements DBInterface{
 
     @Override
     public boolean connect(String address, String userName, String password) {
-        return false;
+        return getIntF().connect(address, userName, password);
+    }
+    
+    public DBInterface getIntF() {
+        return intF;
     }
 
     @Override
