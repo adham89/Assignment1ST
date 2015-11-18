@@ -18,6 +18,6 @@ public class DifferentMethods {
     
     
     public int sub(int a, int b){
-        return 0;
+        return a-b;
     }
 }
