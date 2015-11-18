@@ -24,7 +24,7 @@ public class InterfaceHandler implements DBInterface{
 
     @Override
     public boolean disconnect() {
-      return false ;
+      return getIntF().disconnect();
     }
     
     @Override
