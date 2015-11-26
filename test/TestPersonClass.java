@@ -54,4 +54,14 @@ public class TestPersonClass {
         // TODO review the generated test code and remove the default call to fail.
       //  fail("The test case is a prototype.");
     }
+    
+    @Test
+    public void testGetAge(){
+        System.out.println("getAGe");
+        Person instance = new Person();
+        instance.setAge(60);
+        int result = instance.getAge();
+        int expResult = 60;
+        assertEquals(expResult, result);
+    }
 }
