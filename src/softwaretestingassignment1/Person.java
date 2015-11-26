@@ -18,14 +18,14 @@ public class Person {
      * @return the age
      */
     public int getAge() {
-        return 0;
+        return age;
     }
 
     /**
      * @param age the age to set
      */
-    public void setAge() {
-        
+    public void setAge(int age) {
+        this.age = age;
     }
 
 
