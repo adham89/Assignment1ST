@@ -93,4 +93,21 @@ public class TestPersonClass {
         assertEquals(expResult, result);
        
     }
+    
+    
+       /**
+     * Test of isOver18 method, of class Person.
+     */
+    @Test
+    public void testIsOver18() {
+        System.out.println("isOver18");
+        Person instance = new Person();
+        instance.setPersonAge(50);
+        boolean expResult = true;
+        boolean result = instance.isOver18();
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+   //     fail("The test case is a prototype.");
+    }
+
 }
