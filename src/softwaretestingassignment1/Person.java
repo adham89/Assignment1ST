@@ -10,10 +10,9 @@ package softwaretestingassignment1;
  * @author ad
  */
 public class Person {
-    
+
     public int age;
     public int salary;
-  
 
     /**
      * @return the age
@@ -43,11 +42,14 @@ public class Person {
         this.salary = salary;
     }
 
-        public boolean isOver18(){
-  
+    public boolean isOver18() {
+
+        if (this.age >= 18) {
+            return true;
+        } else {
             return false;
-        
+        }
+
     }
 
-    
 }
