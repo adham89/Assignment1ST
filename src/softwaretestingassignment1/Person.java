@@ -52,7 +52,7 @@ public class Person {
 
     }
 
-    public boolean isPersonHighSalary() {
+    public boolean PersonHighSalary() {
         if (this.salary >= 5000) {
             return true;
 
