@@ -110,4 +110,18 @@ public class TestPersonClass {
    //     fail("The test case is a prototype.");
     }
 
+     /**
+     * Test of isHighSalary method, of class Person.
+     */
+    @Test
+    public void testIsHighSalary() {
+        System.out.println("isHighSalary");
+        Person instance = new Person();
+        instance.setPersonSalary(6000);
+        boolean expResult = true;
+        boolean result = instance.isHighSalary();
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+      //  fail("The test case is a prototype.");
+    }
 }

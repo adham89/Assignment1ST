@@ -51,5 +51,13 @@ public class Person {
         }
 
     }
+    
+    
+       
+    public boolean isHighSalary(){
+      
+            return false;
+        
+    }
 
 }
