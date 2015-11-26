@@ -72,9 +72,9 @@ public class TestPersonClass {
     public void testGetSalary() {
         System.out.println("getSalary");
         Person instance = new Person();
-        instance.setSalary(5000);
+        instance.setPersonSalary(5000);
         int expResult = 5000;
-        int result = instance.getSalary();
+        int result = instance.getPersonSalary();
         assertEquals(expResult, result);
         
     }
@@ -87,8 +87,8 @@ public class TestPersonClass {
         System.out.println("setSalary");
      
         Person instance = new Person();
-        instance.setSalary(70000);
-        int result = instance.getSalary();
+        instance.setPersonSalary(70000);
+        int result = instance.getPersonSalary();
         int expResult = 70000;
         assertEquals(expResult, result);
        
