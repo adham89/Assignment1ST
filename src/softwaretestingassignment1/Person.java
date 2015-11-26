@@ -51,13 +51,16 @@ public class Person {
         }
 
     }
-    
-    
-       
-    public boolean isHighSalary(){
-      
+
+    public boolean isHighSalary() {
+        if (this.salary >= 5000) {
+            return true;
+
+        } else {
+
             return false;
-        
+
+        }
     }
 
-}
+    }
