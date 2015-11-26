@@ -42,7 +42,7 @@ public class Person {
         this.salary = salary;
     }
 
-    public boolean isOver18() {
+    public boolean isPersonOver18() {
 
         if (this.age >= 18) {
             return true;
