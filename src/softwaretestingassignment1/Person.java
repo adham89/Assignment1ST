@@ -33,14 +33,14 @@ public class Person {
      * @return the salary
      */
     public int getSalary() {
-        return 0;
+        return salary;
     }
 
     /**
      * @param salary the salary to set
      */
     public void setSalary(int salary) {
-        
+        this.salary = salary;
     }
 
 
