@@ -17,14 +17,14 @@ public class Person {
     /**
      * @return the age
      */
-    public int getAge() {
+    public int getPersonAge() {
         return age;
     }
 
     /**
      * @param age the age to set
      */
-    public void setAge(int age) {
+    public void setPersonAge(int age) {
         this.age = age;
     }
 
