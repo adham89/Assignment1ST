@@ -32,14 +32,14 @@ public class Person {
     /**
      * @return the salary
      */
-    public int getSalary() {
+    public int getPersonSalary() {
         return salary;
     }
 
     /**
      * @param salary the salary to set
      */
-    public void setSalary(int salary) {
+    public void setPersonSalary(int salary) {
         this.salary = salary;
     }
 
