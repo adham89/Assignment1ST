@@ -12,6 +12,7 @@ package softwaretestingassignment1;
 public class Person {
     
     public int age;
+    public int salary;
   
 
     /**
@@ -26,6 +27,20 @@ public class Person {
      */
     public void setPersonAge(int age) {
         this.age = age;
+    }
+
+    /**
+     * @return the salary
+     */
+    public int getSalary() {
+        return 0;
+    }
+
+    /**
+     * @param salary the salary to set
+     */
+    public void setSalary(int salary) {
+        
     }
 
 

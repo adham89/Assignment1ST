@@ -47,8 +47,8 @@ public class TestPersonClass {
     public void testSetAge() {
         System.out.println("setAge");
         Person instance = new Person();
-        instance.setAge(49);
-        int result = instance.getAge();
+        instance.setPersonAge(49);
+        int result = instance.getPersonAge();
         int expResult = 49;
         assertEquals(result, expResult);
         // TODO review the generated test code and remove the default call to fail.
@@ -59,9 +59,38 @@ public class TestPersonClass {
     public void testGetAge(){
         System.out.println("getAGe");
         Person instance = new Person();
-        instance.setAge(60);
-        int result = instance.getAge();
+        instance.setPersonAge(60);
+        int result = instance.getPersonAge();
         int expResult = 60;
         assertEquals(expResult, result);
+    }
+    
+        /**
+     * Test of getSalary method, of class Person.
+     */
+    @Test
+    public void testGetSalary() {
+        System.out.println("getSalary");
+        Person instance = new Person();
+        instance.setSalary(5000);
+        int expResult = 5000;
+        int result = instance.getSalary();
+        assertEquals(expResult, result);
+        
+    }
+
+    /**
+     * Test of setSalary method, of class Person.
+     */
+    @Test
+    public void testSetSalary() {
+        System.out.println("setSalary");
+     
+        Person instance = new Person();
+        instance.setSalary(70000);
+        int result = instance.getSalary();
+        int expResult = 70000;
+        assertEquals(expResult, result);
+       
     }
 }
